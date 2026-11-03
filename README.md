@@ -8,6 +8,11 @@ The sample project showcases the following functionality:
 - Using the [Node.js Upload](https://cloudinary.com/documentation/node_image_and_video_upload) to upload images to your product environment via Next.js Server Actions
 - [Transforming](https://cloudinary.com/documentation/image_transformations) and displaying images
 
+# Requirements
+
+- Node.js 22 or later
+- This project uses `next-cloudinary` version 7, which requires Next.js 16 or later and React 18.2 or 19
+
 # Setup
 
 [Create an unsigned upload preset](https://cloudinary.com/documentation/upload_presets#creating_and_managing_upload_presets) in your Cloudinary product environment and make a note of the name of the unsigned upload preset as well as your Cloudinary cloud name. Please make sure that when creating the upload preset, you specify the a tag `myphotoalbum-nextjs` so that all assets uploaded via the Upload Widget will also be shown in the gallery.

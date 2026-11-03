@@ -52,7 +52,7 @@ const Album = async () => {
           {photos.map((photo, idx) => {
             return (
               <div className="lg:w-1/3 md:w-1/2 w-full p-4" key={idx}>
-                <AlbumItem src={photo.public_id} width={400} height={400} />
+                <AlbumItem src={photo.public_id} />
               </div>
             );
           })}
